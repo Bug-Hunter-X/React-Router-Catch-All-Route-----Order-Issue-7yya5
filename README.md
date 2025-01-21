@@ -1,0 +1,1 @@
+This example demonstrates a common issue in React Router v6 where a catch-all route (`*`) placed before more specific routes prevents them from ever matching.  The solution reorders the routes to prioritize specific routes before the catch-all.
